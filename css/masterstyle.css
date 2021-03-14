@@ -39,6 +39,10 @@ html, body{
     border-right: 10px solid rgb(141,2,31);
 }
 
+img{
+width:150px;
+height:150px;
+}
 .datos{
     align-items: center;
     justify-content: center;
