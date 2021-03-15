@@ -1,26 +1,41 @@
-*{
-color: rgb(229,244,227);
-}
 
 html, body{
-    background-color: rgb(229,244,227);
+color: rgb(243, 253, 242);
 }
 
-.espacio_nom{
-    width: 700px;
-    height:120px;
+.fondo{
+    background-image: url("https://th.bing.com/th/id/Rdeea687bb3af3b96d622a93e8fd61cee?rik=19NAfhuUowEX1w&riu=http%3a%2f%2fwww.goldsword.cn%2fzhd%2fimgs%2f1.jpg&ehk=mMV1GjFRiBE76Ww8ZUIrURFJcAJw60%2b2hgy0ZNCwzjs%3d&risl=&pid=ImgRaw");
+    background-attachment: fixed;
+}
+
+.nombre{
     position:relative;
     display: flex; 
-    align-items: center;
     justify-content: center;
     margin-left:auto; 
     margin-right:auto;
     top:50px;
-    border-radius: 50%;
-    background-color: rgb(141,2,31);
-    font:2.5rem lucida;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
 }
 
+.subnombre{
+    justify-content: center;
+    margin-left:auto; 
+    margin-right:auto;
+    display:flex;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3px; 
+    opacity: 80%;
+}
 .espacio_img{
     width:150px;
     height:150px;
@@ -30,23 +45,106 @@ html, body{
     justify-content: center;
     margin-left:auto; 
     margin-right:auto;
-    top:100px;
-    border-radius:50%;
-    border: 10px solid rgb(141,2,31);
-    border-top: 10px solid rgb(124,10,2);
-    border-bottom:10px solid rgb(173, 14, 8);
-    border-left: 10px solid rgb(94,25,20);
-    border-right: 10px solid rgb(141,2,31);
+    margin-top:80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 img{
-width:150px;
-height:150px;
+    position:absolute;
+    width:100%;
+    height:110%;
+    padding:1rem;
 }
+
 .datos{
     align-items: center;
     justify-content: center;
-    font:black;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    font-family: 'lucida sans', arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 30px;  
+    text-shadow: 1px 1px 1px black;
+}
+
+.estudios{
+    align-items: center;
+    justify-content: center;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    font-family: 'lucida sans', arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 30px;  
+    text-shadow: 1px 1px 1px black;
+}
+
+.hobbies{
+    align-items: center;
+    justify-content: center;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    font-family: 'lucida sans', arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 30px;  
+    text-shadow: 1px 1px 1px black;
+}
+
+.habilidades{
+    align-items: left;
+    justify-content: left;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: right;
+    font-family: 'lucida sans', arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 30px;  
+    text-shadow: 1px 1px 1px black;
+}
+
+table{
+    margin-top:50px;
+    margin-left:auto; 
+    margin-right:auto;
+    font:1rem verdana;
+}
+
+td{
+    align-content: center;
+    padding:10px;
+}
+
+th{
+    padding:10px;
+}
+
+h4{
+    color:white;
+    position:relative;
+    display: flex; 
+    margin-right:auto;
+    margin-left:auto;
+    align-items: center;
+    justify-content: center;
+    vertical-align:middle;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+h{
+    color:#2065af;
+    letter-spacing: 0.2px;
 }
 
 
