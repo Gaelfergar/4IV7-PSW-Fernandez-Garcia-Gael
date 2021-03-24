@@ -93,6 +93,61 @@ img{
     line-height: 26px; 
     text-indent: 30px;  
     text-shadow: 1px 1px 1px black;
+<<<<<<< HEAD
+=======
+}
+
+.habilidades{
+    align-items: left;
+    justify-content: left;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: right;
+    font-family: 'lucida sans', arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 30px;  
+    text-shadow: 1px 1px 1px black;
+}
+
+table{
+    margin-top:50px;
+    margin-left:auto; 
+    margin-right:auto;
+    font:1rem verdana;
+}
+
+td{
+    align-content: center;
+    padding:10px;
+}
+
+th{
+    padding:10px;
+}
+
+h4{
+    color:white;
+    position:relative;
+    display: flex; 
+    margin-right:auto;
+    margin-left:auto;
+    align-items: center;
+    justify-content: center;
+    vertical-align:middle;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+h{
+    color:#2065af;
+    letter-spacing: 0.2px;
+>>>>>>> 611b36baf4de9566e2b8576a349f0cff8e0f69a7
 }
 
 .habilidades{
