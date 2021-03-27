@@ -1,0 +1,158 @@
+html, body{
+    background-image: url("https://th.bing.com/th/id/Rdeea687bb3af3b96d622a93e8fd61cee?rik=19NAfhuUowEX1w&riu=http%3a%2f%2fwww.goldsword.cn%2fzhd%2fimgs%2f1.jpg&ehk=mMV1GjFRiBE76Ww8ZUIrURFJcAJw60%2b2hgy0ZNCwzjs%3d&risl=&pid=ImgRaw");
+    background-attachment: fixed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.flexbox{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:80px;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1000px;
+}
+
+header{
+    background-image: url("https://media.americanpharmaceuticalreview.com/m/28/article/347944.jpg");
+    background-attachment: fixed;
+    width:100%;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.título a{
+    color:whitesmoke;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin:20px;
+}
+
+header nav{
+    width:50%;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+header nav a{
+    color:whitesmoke;
+    background: #50B7FC;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    padding:10px;
+    text-align:center;
+    flex-grow: 1;
+    box-shadow: 5px 5px 0px 0px #2699F6, 10px 10px 0px 0px rgba(0, 195, 255, 0.575), 0px 29px 50px -30px rgba(0,0,0,0);
+}
+
+header nav a:hover{
+    background:#2699F6;
+}
+
+
+.Siguiente{
+    color:#50B7FC;
+    text-decoration: none;
+}
+
+.Anterior{
+    color:#50B7FC;
+    text-decoration:none;
+}
+
+.texto{
+    margin:20px;
+    width:100%;
+    text-align: justify;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.texto article{
+    margin:20px;
+}
+
+.espacio_img{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.espacio_img img{
+    width:180px;
+    height:230px;
+    padding:20px;
+}
+
+.espacio_img2{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.espacio_img2 img{
+    width:380px;
+    height:250px;
+    padding:20px;
+}
+
+.texto a{
+    text-decoration: none;
+    color:#50B7FC;
+}
+
+.texto iframe{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.texto audio{
+    margin-top:20px;
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+footer{
+    background-image: url("https://media.americanpharmaceuticalreview.com/m/28/article/347944.jpg");
+    background-attachment: fixed;
+    width:100%;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer p{
+    color:#F65600;
+    margin:auto;
+}
