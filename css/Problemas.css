@@ -1,8 +1,24 @@
+html, body{
+    background-image: url("https://th.bing.com/th/id/Rdeea687bb3af3b96d622a93e8fd61cee?rik=19NAfhuUowEX1w&riu=http%3a%2f%2fwww.goldsword.cn%2fzhd%2fimgs%2f1.jpg&ehk=mMV1GjFRiBE76Ww8ZUIrURFJcAJw60%2b2hgy0ZNCwzjs%3d&risl=&pid=ImgRaw");
+    background-attachment: fixed;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.flexbox{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:80px;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1000px;
 }
 
 header h2{
