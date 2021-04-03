@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Problema 2</title>
+    <link rel="stylesheet" href="./css/problemas.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <script src="JS/problema2.js"></script>
+</head>
+<body>
+    <div class="flexbox" style="align-items: center;">
+        <header>
+            <span style="cursor:default"><h1>Problema 2</h1></span>
+        </header>
+        
+        <div class="texto">
+            <p>Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas,
+                el vendedor desea saber cuánto dinero obtendrá por concepto de comisiones por
+                las tres ventas que realiza en el mes y el total que recibirá en el mes tomando 
+                en cuenta su sueldo base y comisiones.</p>
+        </div>
+        
+    <form method="post" name="formulario" id="formulario">
+        <table class="tabla_s">
+            <tr>
+                <td class="texto_tabla">Sueldo base: </td>
+                <td><input type="text" name="sueldo" onkeypress="return validarsueldo(event)"> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="texto_tabla">Valor de las ventas:</td>
+                <td><input type="text" name="valorv" onkeypress="validarvalor(event)"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="texto_tabla">Ventas realizadas este mes: </td>
+                <td><input type="text" name="ventas" onkeypress="return validarventas(event)"></td>
+                <td></td>
+                <td class="botón"><input type="button" value="Calcular" onclick="operación()"></iput></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="texto_tabla">Total: </td>
+                <td><input type="text" name="total" readonly="readonly"></td>
+                <td></td>
+                <td class="botón"><input type="button" value="Borrar" onclick="borrar()"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+
+    <br>
+    <div class="Regresar" style="text-align: left;"><a href="problemas.html">Regresar</a></div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Problema 6</title>
+    <link rel="stylesheet" href="./css/problemas.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <script src="JS/problema6.js"></script>
+</head>
+<body>
+        <header>
+            <span style="cursor:default"><h1>Problema 6</h1></span>
+        </header>
+        
+        <div class="texto">
+            <p>Realiza un algoritmo que calcule la edad de una persona.</p>
+        </div>
+
+        <form method="post" name="formulario">
+            <table class="tabla_s">
+                <tr>
+                    <td class="texto_tabla" style="color:aqua">SOLO SIRVE PARA LA GENERACIÓN Z</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Día de nacimiento: </td>
+                    <td><input type="text" name="día" onkeypress="return validard(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Mes de nacimiento: (número)</td>
+                    <td><input type="text" name="mes" onkeypress="return validarm(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Año de nacimiento: (completo)</td>
+                    <td><input type="text" name="año" onkeypress="return validara(event)"> </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="botón"><input type="button" value="Calcular" name="enviar" onclick="saber()"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Tienes: </td>
+                    <td><input type="text" name="edad" readonly="readonly" size=30></td>
+                </tr>
+                <td>
+                    <td class="botón"><input type="button" value="Borrar" onclick="borrar()"></td>
+                </td>
+            </table>
+        </form>
+        <br>
+ 
+    <div class="Regresar" style="text-align: left;"><a href="problemas.html">Regresar</a></div>
+</body>
+</html>

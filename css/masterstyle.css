@@ -194,12 +194,23 @@ h4{
     letter-spacing: 0.3px;
 }
 
-h{
-    color:#2065af;
-    letter-spacing: 0.2px;
+.botón{
+    width:400px;
+	display: flex; 
+	padding: 20px;
+	color:rgb(243, 253, 242);
+    font-family: 'lucida sans', arial, sans-serif; 
+    margin:auto;
+    justify-content: center;
+    text-indent: -0.1px;
+	text-decoration: none;
+	font-size: 1.7rem;
+	background-color: #3498db;
 }
 
-
+.botón:hover{
+    background-color: #3183b9;
+}
 
 
 

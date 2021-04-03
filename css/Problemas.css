@@ -1,5 +1,6 @@
-html, body{
-    background-image: url("https://th.bing.com/th/id/Rdeea687bb3af3b96d622a93e8fd61cee?rik=19NAfhuUowEX1w&riu=http%3a%2f%2fwww.goldsword.cn%2fzhd%2fimgs%2f1.jpg&ehk=mMV1GjFRiBE76Ww8ZUIrURFJcAJw60%2b2hgy0ZNCwzjs%3d&risl=&pid=ImgRaw");
+body{
+    background-image: url("https://th.bing.com/th/id/Ra177fcde13cd862dfdb9003c4fed4d98?rik=q7w%2fLfiT1KnZLg&riu=http%3a%2f%2fwww.dabaoku.com%2fgif%2fziran%2f017%2f030bd.gif&ehk=oh0oEETpAezgCskimulNozumguF5EkUKYZjIusI0eZU%3d&risl=&pid=ImgRaw");
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -7,27 +8,84 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Aldrich', sans-serif;
 }
 
 .flexbox{
-    background: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: auto;
-    margin-top:80px;
     flex-wrap: wrap;
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    
 }
 
-header h2{
-    color:whitesmoke;
-    text-decoration: none;
-    text-shadow: 2px 2px 2px black;
-    font-size: 3rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
+header h1{
     margin:20px;
+    color:orangered;
+}
+
+.lista{
+    width:100%;
+    padding:20px;
+    align-items: left;
+}
+
+.lista a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgba(0, 255, 0, 0.50);
+}
+
+.texto{
+    padding:20px;
+    align-items: left;
+}
+
+.texto p{
+    font-size: 1rem;
+    color: rgb(255, 255, 0);
+}
+
+.texto table{
+    font-size:1rem;
+    color:rgb(255, 255, 0);
+}
+
+.lista a:hover {
+    color:rgb(0, 255, 0);
+    font-size:16.5px;
+    transition: ease;
+}
+
+.Regresar{
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+.Regresar a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgba(0, 255, 0, 0.50);
+}
+
+.Regresar a:hover {
+    color:rgb(0, 255, 0);
+    font-size:16.5px;
+    transition: ease;
+}
+
+.tabla_s{
+    margin:20px;
+    color:rgb(255, 0, 140);
+    font-size:1rem;
+    
+}
+
+.texto_tabla{
+    text-align:right;
+}
+
+.botón{
+    text-align: left;
 }

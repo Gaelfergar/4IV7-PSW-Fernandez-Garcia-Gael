@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Problema 1</title>
+    <link rel="stylesheet" href="./css/problemas.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <script src="JS/problema1.js"></script>
+</head>
+<body>
+    <div class="flexbox" style="align-items: center;">
+        <header>
+            <span style="cursor:default"><h1>Problema 1</h1></span>
+        </header>
+        
+        <div class="texto">
+            <p>Suponga que un individuo desea invertir su
+                capital en un banco y desea saber cuánto dinero
+                 ganará después de un mes si el banco paga a razón
+                  de 2% mensual.</p>
+        </div>
+
+    <form method="post" name="formulario">
+        <table class="tabla_s">
+            <tr>
+                <td class="texto_tabla">Capital a invertir: </td>
+                <td><input type="text" name="cantidad" onkeypress="return validarc(event)"> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="texto_tabla">Cantidad de meses: </td>
+                <td><input type="text" name="meses" onkeypress="return validarm(event)"> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="botón"><input type="button" value="Interés" name="enviar" onclick="interés()"> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="texto_tabla">Saldo total: </td>
+                <td><input type="text" name="sueldoin" readonly="readonly"></td>
+                <td></td>
+                <td class="botón"><input type="button" value="Borrar" onclick="borrar()"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <br>
+    <div class="Regresar" style="text-align: left;"><a href="problemas.html">Regresar</a></div>
+</body>
+</html>
