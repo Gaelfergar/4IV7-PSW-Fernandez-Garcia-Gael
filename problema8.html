@@ -18,7 +18,35 @@
         <div class="texto">
             <p>Leer tres números diferentes e imprimir el número mayor de los tres.</p>
         </div>
-        
+
+        <form method="post" name="formulario">
+            <table class="tabla_s">
+                <tr>
+                    <td class="texto_tabla">Primer número: </td>
+                    <td><input type="text" name="uno" onkeypress="return validar1(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Segundo número: </td>
+                    <td><input type="text" name="dos" onkeypress="return validar2(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Tercer número: </td>
+                    <td><input type="text" name="tres" onkeypress="return validar3(event)"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="botón"><input type="button" value="Calcular" name="enviar" onclick="operación()"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Resultado: </td>
+                    <td><input type="text" name="total" readonly="readonly"></td>
+                </tr>
+                <td>
+                    <td class="botón"><input type="button" value="Borrar" onclick="borrar()"></td>
+                </td>
+            </table>
+        </form>
+
         <br>
         
     <div class="Regresar" style="text-align: left;"><a href="problemas.html">Regresar</a></div>

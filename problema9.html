@@ -17,8 +17,36 @@
         </header>
         
         <div class="texto">
-            <p>Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal cuando noexceden de 8 horas; si las horas extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las horas normales y el resto al triple.</p>
+            <p>Determinar la cantidad de dinero que recibirá un trabajador por concepto de las 
+                horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo 
+                exceden de 40, el resto se consideran horas extras y que estas se pagan al doble 
+                de una hora normal cuando noexceden de 8 horas; si las horas extras exceden de 8 se 
+                pagan las primeras 8 al doble de lo que se pagan las horas normales y el resto al triple.</p>
         </div>
+
+        <form method="post" name="formulario">
+            <table class="tabla_s">
+                <tr>
+                    <td class="texto_tabla">Sueldo: </td>
+                    <td><input type="text" name="sueldo" onkeypress="return validars(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Horas trabajadas: </td>
+                    <td><input type="text" name="horas" onkeypress="return validarh(event)"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="botón"><input type="button" value="Calcular" name="enviar" onclick="operación()"> </td>
+                </tr>
+                <tr>
+                    <td class="texto_tabla">Paga: </td>
+                    <td><input type="text" name="paga" readonly="readonly"></td>
+                </tr>
+                <td>
+                    <td class="botón"><input type="button" value="Borrar" onclick="borrar()"></td>
+                </td>
+            </table>
+        </form>
         
         <br>
         
