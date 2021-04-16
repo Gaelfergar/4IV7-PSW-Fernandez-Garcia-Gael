@@ -1,0 +1,108 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(243, 253, 242);
+}
+
+h3, h4{
+    color:rgb(27, 27, 27);
+}
+
+.container{
+    width:100%;
+    display:flex;
+    margin:0;
+    padding:1rem;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column;   
+}
+
+.problema-container{
+    background-color:cornflowerblue;
+    padding:1rem;
+    box-sizing:0 1px 3px grey, 0 1px 2px grey;
+}
+
+.problema-title{
+    color:darkblue;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+input.problema-input{
+    padding: 1rem;
+    color: rgb(34, 34, 34);
+    background: none;
+    border: none;
+    border-bottom:2px solid rgb(37, 76, 116);
+    width:100%;
+}
+
+#p3-input{
+    text-transform: uppercase;
+}
+
+.problema-content{
+    display:flex;
+    padding:1rem;
+    justify-content:center;
+    align-items:center;
+    flex-flow: column;
+}
+
+.problema-button{
+    border: none;
+    background-color: rgb(38, 76, 114);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius:4px;
+    box-shadow:0 1px 3px gray;
+}
+
+.problema-output{
+    width:70%;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    margin-top:1rem;
+    text-align:center;
+}
+
+
+table.problema-table{
+    margin: 1rem;
+    border: 1px solid #c3c3c3;
+}
+
+td{
+    border: 1px solid #c3c3c3;
+    padding: 0.5rem;
+}
+
+.botón{
+    width:400px;
+	display: flex; 
+	padding: 20px;
+	color:rgb(243, 253, 242);
+    margin:auto;
+    justify-content: center;
+	text-decoration: none;
+	font-size: 1.7rem;
+    border: none;
+    background-color: rgb(38, 76, 114);
+    padding: 0.8rem;
+    border-radius:4px;
+    box-shadow:0 1px 3px gray;
+}
+
