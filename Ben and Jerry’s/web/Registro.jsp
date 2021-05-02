@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
     <body>
-        <header>
+        <header style="position:sticky;
+        z-index: 100;">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
@@ -87,13 +88,14 @@
                 <p class="texto" style="text-align: center; margin-top:40px; margin-left: 40px; margin-right: 40px;">
                     Nombre: <%=usu.getNom()%> <%=usu.getApelPat_usu()%> <%=usu.getApelMat_usu()%>
                 <br><br>
-                    Fecha De Nacimiento: <%=usu.getfechNaci_usu().toString()%>
+                    Fecha de nacimiento: <%=usu.getfechNaci_usu().toString()%>
                 <br><br>
                     Domicilio: <%=usu.getDomi_usu()%>
                 <br><br>
-                    Telefono Partícular: <%=usu.getTelePart()%>
+                    Telefono particular: <%=usu.getTelePart()%>
                 <br><br>
-                    Telefono Celular: <%=usu.getTeleCelu()%>
+                    Teléfono celular: <%=usu.getTeleCelu()%>
+                </p>
 
     <%
             }
